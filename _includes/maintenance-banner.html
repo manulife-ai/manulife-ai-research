@@ -1,0 +1,8 @@
+{% if site.maintenance_mode %}
+<div class="maintenance-banner" role="alert">
+  <div class="container">
+    <span class="maintenance-icon">⚠️</span>
+    <span class="maintenance-text">{{ site.maintenance_message | default: "Site maintenance is in progress. Some features may be temporarily unavailable." }}</span>
+  </div>
+</div>
+{% endif %}
