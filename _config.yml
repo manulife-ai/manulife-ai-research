@@ -51,3 +51,7 @@ exclude:
   - plan.md
   - node_modules
   - vendor
+
+# Maintenance Mode
+maintenance_mode: true
+maintenance_message: "Site maintenance is in progress. Some features may be temporarily unavailable."
