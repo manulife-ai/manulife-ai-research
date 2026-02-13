@@ -12,12 +12,15 @@
     - label: Partnership Renewal
       url: https://www.linkedin.com/posts/waterloo-artificial-intelligence-institute_ai-llms-generativeai-activity-7312546263604871168-XdWm
 
-- domain: operational-tasks
+- domain: sustainable-ai
   partner: York University
   type: academic
   status: current
   years: "2026–2027"
   area: Two-year academic research collaboration on AI applications
+  links:
+    - label: York Prof Innovating Smaller, Faster and More Sustainable AI
+      url: https://www.yorku.ca/yfile/2026/02/06/york-prof-innovating-smaller-faster-and-more-sustainable-ai/
 
 - domain: operational-tasks
   partner: Artificial Intelligence Centre of Excellence (Singapore)

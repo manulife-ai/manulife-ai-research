@@ -1,22 +1,13 @@
 ---
-title: "MLOps at Scale: Lessons from Enterprise Insurance"
+title: "Reactive to Preventive: Managing Fraud with Databricks OpenCV and GenAI"
 year: 2024
 type: talk
-venue: MLOps Community Conference
-org_unit: Manulife AI (Platforms)
+venue: Databricks Data+AI Summit
+org_unit: Manulife AI
 domains: ["developer-efficiency"]
-authors: "Manulife AI (Platforms)"
-external_url: https://example.com/mlops-talk-2024
-pdf_url: https://example.com/mlops-slides.pdf
-summary: Experience report on building enterprise-grade MLOps infrastructure for regulated financial services.
+authors: "Manulife AI"
+external_url: https://www.youtube.com/watch?v=6dgYKFbohvM
+summary: A talk on transitioning from reactive to preventive fraud management using Databricks, OpenCV, and GenAI.
 ---
 
-This talk shares practical lessons from building and scaling MLOps infrastructure at Manulife. We cover challenges specific to regulated financial services including model governance, auditability, and the three lines of defense.
-
-**Topics covered:**
-- Feature store architecture for insurance applications
-- Model registry and approval workflows
-- Continuous monitoring and drift detection
-- Integration with model risk management processes
-
-**Audience:** ML engineers and platform teams in regulated industries.
+This talk presents Manulife's approach to evolving fraud management from reactive detection to preventive strategies, leveraging Databricks, OpenCV, and Generative AI.
