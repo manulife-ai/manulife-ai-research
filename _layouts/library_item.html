@@ -10,6 +10,9 @@ layout: default
             <span class="library-type">{{ page.type }}</span>
             {% if page.venue %}<span class="library-venue">{{ page.venue }}</span>{% endif %}
         </div>
+        {% if page.authors %}
+        <p class="library-authors"><strong>Authors:</strong> {{ page.authors }}</p>
+        {% endif %}
         <p class="library-org">{{ page.org_unit }}</p>
     </header>
 

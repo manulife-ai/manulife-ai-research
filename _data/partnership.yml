@@ -1,46 +1,42 @@
 # Academic and Industry Partnerships
 
-- domain: underwriting
-  partner: University of Toronto
+- domain: virtual-assistants
+  partner: University of Waterloo
   type: academic
-  years: "2024–2026"
-  area: Machine learning for risk assessment and automated underwriting decision support
+  status: current
+  years: "2018–ongoing"
+  area: AI research partnership focused on advancing applied AI solutions including conversational AI and document understanding
   links:
-    - label: Partnership Announcement
-      url: https://example.com/uoft-manulife-partnership
+    - label: 2018 Partnership Announcement
+      url: https://uwaterloo.ca/artificial-intelligence-institute/news/manulife-announces-400000-ai-partnership-uwaterloo
+    - label: Partnership Renewal
+      url: https://www.linkedin.com/posts/waterloo-artificial-intelligence-institute_ai-llms-generativeai-activity-7312546263604871168-XdWm
 
-- domain: underwriting
+- domain: operational-tasks
+  partner: York University
+  type: academic
+  status: current
+  years: "2026–2027"
+  area: Two-year academic research collaboration on AI applications
+
+- domain: operational-tasks
+  partner: Artificial Intelligence Centre of Excellence (Singapore)
+  type: internal
+  status: current
+  years: "ongoing"
+  area: Powering responsible innovation and elevating customer experiences through AI
+  links:
+    - label: Press Release
+      url: https://www.manulife.com.sg/en/about-us/newsroom/manulife-launches-ai-centre-of-excellence-in-singapore-to-power-responsible-innovation-and-elevate-customer-experiences.html
+
+- domain: advice
   partner: Vector Institute
   type: academic
-  years: "2023–2025"
-  area: Applied research in deep learning for insurance applications
+  status: past
+  years: "2017–2022"
+  area: Applied research in NLP and deep learning for insurance and health applications
   links:
-    - label: Vector Institute Partners
-      url: https://vectorinstitute.ai/partners/
-
-- domain: fraud
-  partner: MIT CSAIL
-  type: academic
-  years: "2024–2026"
-  area: Anomaly detection and graph-based fraud pattern identification
-  links:
-    - label: Research Partnership Page
-      url: https://example.com/mit-manulife-collaboration
-
-- domain: fraud
-  partner: Waterloo AI Institute
-  type: academic
-  years: "2023–2025"
-  area: Real-time transaction monitoring and behavioral analysis
-  links:
-    - label: Partnership Details
-      url: https://example.com/waterloo-manulife
-
-- domain: platforms
-  partner: Google Cloud
-  type: industry
-  years: "2024–2026"
-  area: MLOps infrastructure and scalable model serving
-  links:
-    - label: Customer Story
-      url: https://example.com/gcp-manulife
+    - label: Vector Institute Launch
+      url: https://vectorinstitute.ai/press-release-new-artificial-intelligence-research-institute-launched-in-toronto/
+    - label: Genesis of Manulife's NLP Academy
+      url: https://vectorinstitute.ai/the-genesis-of-manulifes-nlp-academy/

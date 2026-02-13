@@ -4,7 +4,8 @@ year: 2024
 type: talk
 venue: MLOps Community Conference
 org_unit: Manulife AI (Platforms)
-domains: ["platforms"]
+domains: ["developer-efficiency"]
+authors: "Manulife AI (Platforms)"
 external_url: https://example.com/mlops-talk-2024
 pdf_url: https://example.com/mlops-slides.pdf
 summary: Experience report on building enterprise-grade MLOps infrastructure for regulated financial services.

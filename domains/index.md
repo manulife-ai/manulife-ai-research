@@ -10,7 +10,7 @@ AI research and applied research are embedded within business and technology fun
 <div class="card-grid">
 {% for domain in site.domains %}
   {% assign domain_library_count = site.library | where_exp: "item", "item.domains contains domain.slug" | size %}
-  {% assign domain_collab_count = site.data.collaborations | where: "domain", domain.slug | size %}
+  {% assign domain_collab_count = site.data.partnership | where: "domain", domain.slug | size %}
   {% comment %} 
     Gating: only show domains with ≥2 library items OR ≥1 library item AND ≥1 collaboration 
   {% endcomment %}

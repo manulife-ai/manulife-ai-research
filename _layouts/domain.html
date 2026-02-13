@@ -31,10 +31,10 @@ layout: default
     </section>
     {% endif %}
 
-    {% assign domain_collabs = site.data.collaborations | where: "domain", page.slug %}
+    {% assign domain_collabs = site.data.partnership | where: "domain", page.slug %}
     {% if domain_collabs.size > 0 %}
     <section class="domain-collaborations">
-        <h2>Collaborations</h2>
+        <h2>Partnerships</h2>
         <ul class="collab-list">
             {% for collab in domain_collabs %}
             <li class="collab-item">

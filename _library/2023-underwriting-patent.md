@@ -5,6 +5,7 @@ type: patent
 venue: US Patent Office
 org_unit: Manulife AI (Underwriting)
 domains: ["underwriting"]
+authors: "Manulife AI (Underwriting)"
 external_url: https://patents.google.com/patent/US12345678
 summary: Patent covering machine learning pipeline for automated underwriting decisions with risk scoring.
 ---
