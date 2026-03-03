@@ -25,3 +25,47 @@
     Azure Document Intelligence, with LangChain-based chunking and
     Azure OpenAI embeddings. Associated with the ECIR 2026 paper
     "Understanding Multi-Structured Documents via LLMs."
+
+- name: benchkit
+  repo_url: https://github.com/manulife-ai/benchkit
+  status: active
+  team_owner: Applied AI Research
+  domain: sustainable-ai
+  license: MIT
+  last_release: "2026-03"
+  description: >
+    A toolkit for creating ground truth datasets and benchmarking generative
+    AI systems in enterprise contexts. Provides CRUD management for projects
+    and test cases, a validation UI with keyboard navigation and progress
+    tracking, and benchmark comparison with field-level diff. Companion
+    tool for "Benchmarking Workflow for Generative AI Systems."
+
+- name: bfsi-llm-eval
+  repo_url: https://github.com/manulife-ai/bfsi-llm-eval
+  status: active
+  team_owner: Applied AI Research
+  domain: sustainable-ai
+  license: MIT
+  last_release: "2026-03"
+  kind: repo
+  description: >
+    Python pipeline to generate adversarial evaluation datasets for testing
+    LLMs in Banking, Financial Services & Insurance domains. Scrapes public
+    BFSI content and uses LLM-driven generation to produce structured prompts
+    that stress-test model behavior across hallucination, consistency,
+    robustness, and safety dimensions.
+
+- name: bfsi-llm-eval
+  repo_url: https://huggingface.co/datasets/manulife/bfsi-llm-eval
+  status: active
+  team_owner: Applied AI Research
+  domain: sustainable-ai
+  license: CC-BY-4.0
+  last_release: "2026-03"
+  kind: dataset
+  description: >
+    611-prompt evaluation dataset for testing LLM behavior in Banking,
+    Financial Services & Insurance domains. Covers 4 dimensions
+    (hallucination, consistency, robustness, safety), 15 subdimensions,
+    and 3 difficulty levels. Each record includes structured pass criteria,
+    adversarial strategies, and expected failure modes.

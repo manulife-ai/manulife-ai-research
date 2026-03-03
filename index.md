@@ -48,14 +48,18 @@ AI capabilities are developed within dedicated teams across the organization:
 
 Our approach to AI is grounded in responsible development and deployment practices:
 
-<div class="callout">
-
-- **Governance:** All production models undergo review by model risk management
-- **Three Lines of Defense:** Business units, risk management, and internal audit maintain independent oversight
-- **Transparency:** We prioritize interpretable models and explainable outputs where feasible
-- **Fairness:** Bias testing and monitoring are integrated into our model development lifecycle
-- **Privacy:** Data minimization and privacy-preserving techniques are core design principles
-
+<div class="announcement-banner">
+  <div class="announcement-icon">🛡️</div>
+  <div class="announcement-body">
+    <strong class="announcement-title">Our Principles</strong>
+    <ul class="announcement-list">
+      <li><strong>Governance:</strong> All production models undergo review by model risk management</li>
+      <li><strong>Three Lines of Defense:</strong> Business units, risk management, and internal audit maintain independent oversight</li>
+      <li><strong>Transparency:</strong> We prioritize interpretable models and explainable outputs where feasible</li>
+      <li><strong>Fairness:</strong> Bias testing and monitoring are integrated into our model development lifecycle</li>
+      <li><strong>Privacy:</strong> Data minimization and privacy-preserving techniques are core design principles</li>
+    </ul>
+  </div>
 </div>
 
 ---
@@ -67,7 +71,10 @@ We contribute to the broader ML community through open source projects:
 <div class="card-grid">
 {% for project in site.data.open_source %}
   <div class="card oss-card">
-    <h3><a href="{{ project.repo_url }}" target="_blank" rel="noopener">{{ project.name }}</a></h3>
+    <h3>
+      {% if project.kind == 'dataset' %}🤗 {% endif %}<a href="{{ project.repo_url }}" target="_blank" rel="noopener">{{ project.name }}</a>
+      {% if project.kind == 'dataset' %}<span class="oss-kind dataset">dataset</span>{% endif %}
+    </h3>
     <span class="oss-status {{ project.status }}">{{ project.status }}</span>
     <p>{{ project.description }}</p>
     <div class="oss-meta">{{ project.team_owner }} · {{ project.license }}</div>
