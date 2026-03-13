@@ -4,7 +4,7 @@ title: Overview
 
 # Manulife AI Research
 
-AI research and applied research are embedded within our business and technology functions. We focus on practical applications that improve outcomes for our customers and operations.
+This site shares our peer-reviewed journal and conference publications, academic partnerships, and related research artefacts such as open-source code and datasets.
 
 ## Latest Updates
 
@@ -19,7 +19,7 @@ AI research and applied research are embedded within our business and technology
 {% endfor %}
 </ul>
 
-[View all publications →](/library/)
+[View all publications →]({{ '/library/' | relative_url }})
 
 ---
 
@@ -31,16 +31,21 @@ AI capabilities are developed within dedicated teams across the organization:
 {% for domain in site.domains %}
   {% assign domain_library_count = site.library | where_exp: "item", "item.domains contains domain.slug" | size %}
   {% assign domain_collab_count = site.data.partnership | where: "domain", domain.slug | size %}
-  {% if domain_library_count >= 2 or domain_library_count >= 1 and domain_collab_count >= 1 %}
+  {% if domain_library_count >= 1 or domain_collab_count >= 1 %}
   <a href="{{ domain.url | relative_url }}" class="card card-link">
     <h3>{{ domain.title }}</h3>
     <p>{{ domain.blurb }}</p>
   </a>
+  {% else %}
+  <div class="card">
+    <h3>{{ domain.title }}</h3>
+    <p>{{ domain.blurb }}</p>
+  </div>
   {% endif %}
 {% endfor %}
 </div>
 
-[View all domains →](/domains/)
+[View all domains →]({{ '/domains/' | relative_url }})
 
 ---
 
@@ -82,4 +87,4 @@ We contribute to the broader ML community through open source projects:
 {% endfor %}
 </div>
 
-[View all projects →](/open-source/)
+[View all projects →]({{ '/open-source/' | relative_url }})

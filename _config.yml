@@ -53,5 +53,5 @@ exclude:
   - vendor
 
 # Maintenance Mode
-maintenance_mode: true
+maintenance_mode: false
 maintenance_message: "Site maintenance is in progress. Some features may be temporarily unavailable."
