@@ -4,7 +4,8 @@ year: 2026
 type: publication
 venue: "Transactions on Machine Learning Research"
 org_unit: "University of Waterloo Partnership"
-domains: ["advice"] 
+domains: ["advice"]
+authors: "Wei Min Loh, Sajib Kumer Sinha, Ankur Agarwal, Pascal Poupart"
 external_url: https://arxiv.org/abs/your-paper-id   # TBU
 code_url: https://github.com/manulife/your-repo  # TBU
 pdf_url: https://example.com/paper.pdf  # TBU
