@@ -9,10 +9,9 @@ Publications, talks, reports, and patents from AI teams across Manulife.
 
 ## Browse by Type
 
-- [Publications](/library/publications/) — peer-reviewed papers and preprints
-- [Talks](/library/talks/) — conference presentations and invited talks
-- [Reports](/library/reports/) — technical reports and whitepapers
-- [Patents](/library/patents/) — granted and pending patents
+- [Publications]({{ '/library/publications/' | relative_url }}) — peer-reviewed papers and preprints
+- [Talks]({{ '/library/talks/' | relative_url }}) — conference presentations and invited talks
+- [Partnership]({{ '/partnership/' | relative_url }}) — academic and industry collaborations
 
 ---
 
