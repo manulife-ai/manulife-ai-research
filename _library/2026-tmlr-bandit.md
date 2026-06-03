@@ -6,9 +6,9 @@ venue: "Transactions on Machine Learning Research"
 org_unit: "University of Waterloo Partnership"
 domains: ["advice"]
 authors: "Wei Min Loh, Sajib Kumer Sinha, Ankur Agarwal, Pascal Poupart"
-external_url: https://arxiv.org/abs/your-paper-id   # TBU
-code_url: https://github.com/manulife/your-repo  # TBU
-pdf_url: https://example.com/paper.pdf  # TBU
+external_url: https://openreview.net/forum?id=tRbwfej9uY
+code_url: https://github.com/wmloh/c3
+pdf_url: https://openreview.net/pdf?id=tRbwfej9uY
 summary: "This paper introduces conditionally coupled contextual (C3) Thompson Sampling, a method for non‑linear, time‑varying contextual bandits that improves regret and click‑through performance over existing algorithms."
 ---
 
@@ -20,4 +20,3 @@ This paper introduces conditionally coupled contextual (C3) Thompson Sampling, a
 
 **Results:** Empirical results show that C3 outperforms the next best algorithm by 5.7% lower average cumulative regret on four OpenML tabular datasets as well as demonstrating a 12.4% click lift on Microsoft News Dataset (MIND) compared to other algorithms.
 
-*To be published soon*
