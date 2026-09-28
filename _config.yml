@@ -19,7 +19,7 @@ collections:
     permalink: /domains/:slug/
   library:
     output: true
-    permalink: /library/:year-:slug/
+    permalink: /library/:slug/
 
 # Defaults
 defaults:

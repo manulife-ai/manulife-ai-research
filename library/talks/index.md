@@ -12,7 +12,11 @@ Conference presentations and invited talks from Manulife AI teams.
 {% for item in talks %}
   <li class="library-item">
     <span class="library-year">{{ item.year }}</span>
+    {% if item.external_url %}
     <a href="{{ item.external_url }}" target="_blank" rel="noopener">{{ item.title }}</a>
+    {% else %}
+    <span class="library-title-pending">{{ item.title }} (coming soon)</span>
+    {% endif %}
     {% if item.venue %}<span class="library-venue">{{ item.venue }}</span>{% endif %}
   </li>
 {% endfor %}
