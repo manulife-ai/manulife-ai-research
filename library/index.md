@@ -24,11 +24,15 @@ Publications, talks, reports, and patents from AI teams across Manulife.
     <span class="library-year">{{ item.year }}</span>
     {% if item.external_url %}
     <a href="{{ item.external_url }}" target="_blank" rel="noopener">{{ item.title }}</a>
+    {% elsif item.status == "accepted" %}
+    <span class="library-title-pending">{{ item.title }} (accepted{% if item.venue %} to {{ item.venue }}{% endif %})</span>
     {% else %}
     <span class="library-title-pending">{{ item.title }} (coming soon)</span>
     {% endif %}
     <span class="library-type">{{ item.type }}</span>
-    {% if item.venue %}<span class="library-venue">{{ item.venue }}</span>{% endif %}
+    {% if item.venue %}
+    {% if item.status != "accepted" or item.external_url %}<span class="library-venue">{{ item.venue }}</span>{% endif %}
+    {% endif %}
   </li>
 {% endfor %}
 </ul>
