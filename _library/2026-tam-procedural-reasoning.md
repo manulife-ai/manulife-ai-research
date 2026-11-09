@@ -7,6 +7,7 @@ org_unit: "Manulife AI"
 domains: ["operational-tasks"]
 authors: "Utkarsh Soni, Syed Shariyar Murtaza, Yifan Nie, Sachin Chandrasekhar, Eugene Wen"
 external_url: https://arxiv.org/abs/2609.13005
+conference_url: https://dl.acm.org/doi/10.1145/3799682.3841039
 pdf_url: https://arxiv.org/pdf/2609.13005
 summary: "This paper introduces Tasks over Application Manuals (TAM), a benchmark of real-world ICD-10-CM coding and U.S. federal sentencing tasks that shows current LLMs struggle to reliably follow long, rule-based procedural manuals."
 ---

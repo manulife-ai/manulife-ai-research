@@ -13,7 +13,7 @@ Technical reports and whitepapers from Manulife AI teams.
   <li class="library-item">
     <span class="library-year">{{ item.year }}</span>
     {% if item.external_url %}
-    <a href="{{ item.external_url }}" target="_blank" rel="noopener">{{ item.title }}</a>
+    <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
     {% else %}
     <span class="library-title-pending">{{ item.title }} (coming soon)</span>
     {% endif %}

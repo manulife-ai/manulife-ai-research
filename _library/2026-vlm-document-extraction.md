@@ -7,6 +7,7 @@ org_unit: "Manulife AI"
 domains: ["operational-tasks"]
 authors: "Kushal Patel, Pushkal Shrivastava, Mackenzie Lees, Qirui Lu, Bhargobjyoti Saikia, Liying Li, Junlin Jiang"
 external_url: https://arxiv.org/abs/2609.15706v2
+conference_url: https://aclanthology.org/2026.emnlp-industry.123/
 pdf_url: https://arxiv.org/pdf/2609.15706v2
 summary: "This paper benchmarks eleven commercial, reasoning, and open-source vision-language models on templated document field extraction and introduces a selection framework that maps task requirements to the most cost-effective, governance-compliant approach."
 ---

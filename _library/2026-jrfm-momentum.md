@@ -7,6 +7,7 @@ org_unit: Manulife Investment Management
 domains: ["distribution"]
 authors: "Shawn McCarthy"
 external_url: https://www.mdpi.com/2227-7072/14/1/4
+pdf_url: https://www.mdpi.com/2227-7072/14/1/4/pdf
 summary: This paper proposes a momentum-based normalization framework for generating profitable trading signals from analyst sentiment data.
 ---
 
