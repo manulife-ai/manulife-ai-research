@@ -23,7 +23,7 @@ Publications, talks, reports, and patents from AI teams across Manulife.
   <li class="library-item">
     <span class="library-year">{{ item.year }}</span>
     {% if item.external_url %}
-    <a href="{{ item.external_url }}" target="_blank" rel="noopener">{{ item.title }}</a>
+    <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
     {% elsif item.status == "accepted" %}
     <span class="library-title-pending">{{ item.title }} (accepted{% if item.venue %} to {{ item.venue }}{% endif %})</span>
     {% else %}

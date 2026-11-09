@@ -28,6 +28,9 @@ layout: default
         {% if page.external_url %}
         <a href="{{ page.external_url }}" class="btn btn-primary" target="_blank" rel="noopener">View Publication</a>
         {% endif %}
+        {% if page.conference_url %}
+        <a href="{{ page.conference_url }}" class="btn btn-secondary" target="_blank" rel="noopener">Conference</a>
+        {% endif %}
         {% if page.pdf_url %}
         <a href="{{ page.pdf_url }}" class="btn btn-secondary" target="_blank" rel="noopener">PDF</a>
         {% endif %}

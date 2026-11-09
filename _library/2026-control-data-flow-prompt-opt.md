@@ -7,7 +7,8 @@ org_unit: "Manulife AI"
 domains: ["virtual-assistants", "underwriting"]
 authors: "Wentao Zhang, Syed Shariyar Murtaza, Junaid Ahmad Bhatti, Utkarsh Soni, Yifan Nie, Eugene Wen, Yuntian Deng"
 external_url: https://arxiv.org/abs/2609.00621
-pdf_url: https://arxiv.org/pdf/2609.00621
+pdf_url: https://aclanthology.org/2026.findings-emnlp.2198.pdf
+conference_url: https://aclanthology.org/2026.findings-emnlp.2198/
 summary: "This paper proposes control-data flow separation, representing execution-critical protocol as typed program objects distinct from the optimizable natural-language content in multi-agent LLM prompts, achieving 100% protocol validity while improving task performance."
 ---
 

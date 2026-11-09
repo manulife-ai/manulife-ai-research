@@ -104,6 +104,7 @@ venue: "Conference or Journal Name (e.g., AAAI, NeurIPS, ICML)"
 org_unit: "Manulife AI (Business Unit)"
 domains: ["fraud", "underwriting"]  # Must match slugs in _domains/
 external_url: https://arxiv.org/abs/your-paper-id
+conference_url: https://conference.org/paper-link  # Optional: published conference version
 code_url: https://github.com/manulife/your-repo  # Optional
 pdf_url: https://example.com/paper.pdf  # Optional
 summary: "1-2 sentence neutral summary of the research contribution."
@@ -181,6 +182,7 @@ Description of the talk content.
 | `external_url` | ✅ | Public link to the artifact |
 | `summary` | ✅ | 1-2 sentence description |
 | `code_url` | ❌ | Link to associated code repository |
+| `conference_url` | ❌ | Link to the conference or proceedings version |
 | `pdf_url` | ❌ | Direct link to PDF |
 | `video_url` | ❌ | Link to video recording |
 

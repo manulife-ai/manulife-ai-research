@@ -6,7 +6,7 @@ venue: NAACL 2025 (Industry Track)
 org_unit: Applied AI Research Team
 domains: ["virtual-assistants"]
 authors: "Syed Shariyar Murtaza, Yifan Nie, Elias Avan, Utkarsh Soni, Wanyu Liao, Adam Carnegie, Cyril John Mathias, Junlin Jiang, Eugene Wen"
-external_url: https://aclanthology.org/2025.naacl-industry.48.pdf
+external_url: https://aclanthology.org/2025.naacl-industry.48/
 pdf_url: https://aclanthology.org/2025.naacl-industry.48.pdf
 summary: This paper presents the implementation of a RAG-based system for a call center at a large financial institution, enabling agents to query both unstructured and structured data sources using natural language.
 ---
