@@ -7,6 +7,7 @@ org_unit: Manulife Investment Management
 domains: ["distribution"]
 authors: "Shawn McCarthy"
 external_url: https://www.mdpi.com/1911-8074/16/4/226
+pdf_url: https://www.mdpi.com/1911-8074/16/4/226/pdf
 summary: This paper presents methods for enhancing financial market analysis using emotion corpora and news co-occurrence networks.
 ---
 

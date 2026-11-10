@@ -2,7 +2,7 @@
 title: "Control-Data Flow Separation: Stable Prompt Optimization in Multi-Agent LLMs"
 year: 2026
 type: publication
-venue: "EMNLP 2026 Findings"
+venue: "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing (Findings of the Association for Computational Linguistics)"
 org_unit: "Manulife AI"
 domains: ["virtual-assistants", "underwriting"]
 authors: "Wentao Zhang, Syed Shariyar Murtaza, Junaid Ahmad Bhatti, Utkarsh Soni, Yifan Nie, Eugene Wen, Yuntian Deng"

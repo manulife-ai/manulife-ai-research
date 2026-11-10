@@ -2,7 +2,7 @@
 title: "Beyond Accuracy: Robustness, Cost, and Governance Trade-offs for Vision-Language Models in Templated Document Extraction"
 year: 2026
 type: publication
-venue: "arXiv preprint"
+venue: "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing (Industry Track)"
 org_unit: "Manulife AI"
 domains: ["operational-tasks"]
 authors: "Kushal Patel, Pushkal Shrivastava, Mackenzie Lees, Qirui Lu, Bhargobjyoti Saikia, Liying Li, Junlin Jiang"

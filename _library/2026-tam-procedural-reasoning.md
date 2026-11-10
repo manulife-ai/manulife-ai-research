@@ -2,7 +2,7 @@
 title: "Tasks over Application Manuals: Revealing Gaps in Long-Horizon Procedural Reasoning for Language Models"
 year: 2026
 type: publication
-venue: "arXiv preprint"
+venue: "CIKM '26: Proceedings of the 35th ACM International Conference on Information and Knowledge Management"
 org_unit: "Manulife AI"
 domains: ["operational-tasks"]
 authors: "Utkarsh Soni, Syed Shariyar Murtaza, Yifan Nie, Sachin Chandrasekhar, Eugene Wen"

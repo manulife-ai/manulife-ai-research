@@ -7,5 +7,5 @@ venue: "Findings of ACL 2026"
 authors: "Ruotian Wu, Ahmad Rashid, Syed Shariyar Murtaza, Utkarsh Soni, Eugene Wen, Pascal Poupart"
 summary: "This paper presents a prompt-search method combining diversity-aware candidate generation with semantics-behavior coupled Bayesian optimization."
 ---
-
 Accepted to Findings of ACL 2026; publication details are forthcoming.
+
