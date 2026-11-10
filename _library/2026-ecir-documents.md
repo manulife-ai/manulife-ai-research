@@ -2,11 +2,12 @@
 title: "Understanding Multi-Structured Documents via LLMs"
 year: 2026
 type: publication
-venue: ECIR 2026 (Industry Track)
+venue: 48th European Conference on Information Retrieval, ECIR 2026 (Industry Track)
 org_unit: University of Waterloo Partnership
 domains: ["operational-tasks"]
 authors: "Shivani Upadhyay, Messiah Ataey, Syed Shariyar Murtaza, Yifan Nie, Anirudh Aggarwal, Jimmy Lin"
-external_url: https://dl.acm.org/doi/10.1007/978-3-032-21321-1_10
+external_url: https://arxiv.org/abs/2506.05182
+conference_url:  https://dl.acm.org/doi/10.1007/978-3-032-21321-1_10
 code_url: https://github.com/manulife-ai/financialqa
 summary: This paper addresses the challenge of comprehending multi-structured financial documents — containing text, tables, and figures — using LLMs and pre-processing tools for question answering.
 ---

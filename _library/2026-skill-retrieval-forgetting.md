@@ -2,7 +2,7 @@
 title: "When Synthetic Data Hurts: On Catastrophic Forgetting in Skill Retrieval for LLM Agents"
 year: 2026
 type: publication
-venue: "EMNLP 2026 (Industry Track)"
+venue: "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing (Industry Track)"
 org_unit: "Manulife AI"
 domains: ["virtual-assistants"]
 authors: "Syed Shariyar Murtaza, Yifan Nie, Utkarsh Soni, Eugene Wen, Arvid Frydenlund"

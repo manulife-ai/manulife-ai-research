@@ -2,7 +2,7 @@
 title: "Implementing Retrieval Augmented Generation Technique on Unstructured and Structured Data Sources in a Call Center of a Large Financial Institution"
 year: 2025
 type: publication
-venue: NAACL 2025 (Industry Track)
+venue: "Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies, NAACL 2025 (Industry Track)"
 org_unit: Applied AI Research Team
 domains: ["virtual-assistants"]
 authors: "Syed Shariyar Murtaza, Yifan Nie, Elias Avan, Utkarsh Soni, Wanyu Liao, Adam Carnegie, Cyril John Mathias, Junlin Jiang, Eugene Wen"

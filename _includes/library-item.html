@@ -1,0 +1,12 @@
+<li class="library-item">
+  <span class="library-year">{{ include.item.year }}</span>
+  {% if include.item.external_url %}
+  <a href="{{ include.item.url | relative_url }}">{{ include.item.title }}</a>
+  {% elsif include.item.status == "accepted" %}
+  <span class="library-title-pending">{{ include.item.title }}</span>
+  {% else %}
+  <span class="library-title-pending">{{ include.item.title }} (coming soon)</span>
+  {% endif %}
+  {% if include.show_type %}<span class="library-type">{{ include.item.type }}</span>{% endif %}
+  {% if include.item.venue %}<span class="library-venue">{{ include.item.venue }}</span>{% endif %}
+</li>

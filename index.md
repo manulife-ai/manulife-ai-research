@@ -8,20 +8,23 @@ This site shares our peer-reviewed journal and conference publications, academic
 
 ## Latest Updates
 
-{% assign recent_items = site.library | sort: "year" | reverse | limit: 5 %}
+{% assign accepted_items = site.library | where: "status", "accepted" | sort: "year" | reverse %}
+{% if accepted_items.size > 0 %}
+### Accepted
+
+<ul class="library-list">
+{% for item in accepted_items %}
+{% include library-item.html item=item show_type=true %}
+{% endfor %}
+</ul>
+
+### Published
+
+{% endif %}
+{% assign recent_items = site.library | where_exp: "item", "item.status != 'accepted'" | sort: "year" | reverse | limit: 5 %}
 <ul class="library-list">
 {% for item in recent_items %}
-  <li class="library-item">
-    <span class="library-year">{{ item.year }}</span>
-    {% if item.external_url %}
-    <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
-    {% elsif item.status == "accepted" %}
-    <span class="library-title-pending">{{ item.title }} (accepted{% if item.venue %} to {{ item.venue }}{% endif %})</span>
-    {% else %}
-    <span class="library-title-pending">{{ item.title }} (coming soon)</span>
-    {% endif %}
-    <span class="library-type">{{ item.type }}</span>
-  </li>
+{% include library-item.html item=item show_type=true %}
 {% endfor %}
 </ul>
 

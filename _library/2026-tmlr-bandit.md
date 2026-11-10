@@ -2,7 +2,7 @@
 title: "A Practical Algorithm for Feature-Rich, Non-Stationary Bandit Problems"
 year: 2026
 type: publication
-venue: "Transactions on Machine Learning Research"
+venue: "Transactions on Machine Learning Research, Journal"
 org_unit: "University of Waterloo Partnership"
 domains: ["advice"]
 authors: "Wei Min Loh, Sajib Kumer Sinha, Ankur Agarwal, Pascal Poupart"
@@ -20,4 +20,3 @@ This paper introduces conditionally coupled contextual (C3) Thompson Sampling, a
 
 **Results:** Empirical results show that C3 outperforms the next best algorithm by 5.7% lower average cumulative regret on four OpenML tabular datasets as well as demonstrating a 12.4% click lift on Microsoft News Dataset (MIND) compared to other algorithms.
 
-*To be published soon*

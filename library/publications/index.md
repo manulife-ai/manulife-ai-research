@@ -8,21 +8,24 @@ permalink: /library/publications/
 Peer-reviewed papers and preprints from Manulife AI teams.
 
 {% assign publications = site.library | where: "type", "publication" | sort: "year" | reverse %}
+{% assign accepted_publications = publications | where: "status", "accepted" %}
+{% assign published_publications = publications | where_exp: "item", "item.status != 'accepted'" %}
+
+{% if accepted_publications.size > 0 %}
+## Accepted
+
 <ul class="library-list">
-{% for item in publications %}
-  <li class="library-item">
-    <span class="library-year">{{ item.year }}</span>
-    {% if item.external_url %}
-    <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
-    {% elsif item.status == "accepted" %}
-    <span class="library-title-pending">{{ item.title }} (accepted{% if item.venue %} to {{ item.venue }}{% endif %})</span>
-    {% else %}
-    <span class="library-title-pending">{{ item.title }} (coming soon)</span>
-    {% endif %}
-    {% if item.venue %}
-    {% if item.status != "accepted" or item.external_url %}<span class="library-venue">{{ item.venue }}</span>{% endif %}
-    {% endif %}
-  </li>
+{% for item in accepted_publications %}
+{% include library-item.html item=item %}
+{% endfor %}
+</ul>
+
+## Published
+
+{% endif %}
+<ul class="library-list">
+{% for item in published_publications %}
+{% include library-item.html item=item %}
 {% endfor %}
 </ul>
 
